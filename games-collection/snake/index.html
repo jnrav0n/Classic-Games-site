@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Classic Games Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <a href="../index.html" class="back-button">← Back to Games</a>
+            <h1>Snake Game</h1>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="score-container">
+            <p>Score: <span id="score">0</span></p>
+            <p>High Score: <span id="highScore">0</span></p>
+        </div>
+        <button id="startButton">Start Game</button>
+        <div class="game-instructions">
+            <h2>How to Play</h2>
+            <p>Use the arrow keys to control the snake. Eat the red food to grow and increase your score. Avoid hitting the walls or yourself!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

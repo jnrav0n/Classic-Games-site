@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Shooter - Classic Games Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <a href="../index.html" class="back-button">← Back to Games</a>
+            <h1>Target Shooter</h1>
+        </div>
+        <div class="game-area">
+            <div class="score-container">
+                <p>Score: <span id="score">0</span></p>
+                <p>High Score: <span id="highScore">0</span></p>
+                <p>Time Left: <span id="timer">60</span>s</p>
+            </div>
+            <canvas id="gameCanvas"></canvas>
+            <button id="startButton">Start Game</button>
+        </div>
+        <div class="game-instructions">
+            <h2>How to Play</h2>
+            <p>Click on the targets to score points. Different targets are worth different points. Try to get the highest score in 60 seconds!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
